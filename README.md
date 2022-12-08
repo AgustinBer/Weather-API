@@ -89,17 +89,3 @@ Then run `pylint` and `black` using:
 python -m pylint dags
 python -m black .
 ```
-
-## Testing
-
-[Pytest](https://pytest.org/) is used for automated testing of DAGs. To set up test infrastructure locally, run:
-
-```shell
-python -m pip install --upgrade -e ".[testing]"
-```
-
-Tests can be run via:
-
-```shell
-python -m pytest -vvv
-```
