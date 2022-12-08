@@ -48,12 +48,11 @@ In the [dags](dags) directory you can find the dags:
 
 * [weather_dag.py](dags/weather_dag.py): performs a daily export of table data to a remote filesystem (in our case S3). Contains 3 tasks:
 
+```
 ├──get_weather: We get London current weather using OpenWeatherMap API. If the API call was sucessful, get the json and dump it to a file with today's date as the title in GCS bucket.
-|
 ├──transform_data: We read previous file, transform the data to the correct types and convert temp to celsius, then we load to another bucket (staging)
-|
 ├──load_data: we read previous data, then load it into a table in postgres
-
+```
 
 ## Start the project
 
