@@ -4,6 +4,9 @@ This is a simple ETL using Airflow. First, we get data from API. Then, we drop u
 
 This repository contains examples of Apache Airflow DAGs for automating recurrent queries. All DAGs run on Astronomer infrastructure installed on Ubuntu 20.04.3 LTS.
 
+## Diagram
+
+![alt text](https://i.gyazo.com/7bbfea7c0407bfda94f322d5aa1d8b1c.png)
 
 ## Installation
 
