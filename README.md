@@ -36,9 +36,9 @@ The project directory has the following file structure:
   ├── dags # directory containing all DAGs
   ├── .astro # project settings
   ├── Dockerfile # runtime overrides for Astronomer Docker image
-  ├── packages.txt # specification of OS-level packages
   ├── init # additional setup-related scripts/database schemas
   └── requirements.txt # specification of Python packages
+  └── setup.py # setup
 ```
 
 In the [dags](dags) directory you can find the dags:
